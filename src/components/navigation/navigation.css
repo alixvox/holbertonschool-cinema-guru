@@ -1,0 +1,31 @@
+.header {
+  background-color: #000; /* Black background for header */
+  color: #fff; /* White text */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem; /* Adjust the padding as needed */
+}
+
+.header img {
+  border-radius: 50%; /* Circular avatar */
+  width: 50px; /* Adjust size as needed */
+}
+
+.header p {
+  margin: 0; /* Remove default margin */
+  /* Additional styling for the welcome text */
+}
+
+.logout-button {
+  background-color: red; /* Red background for logout button */
+  color: white; /* White text */
+  padding: 0.5rem 1rem; /* Padding inside the button */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 0.3rem; /* Slightly rounded corners for the button */
+}
+
+.logout-button:hover {
+  background-color: darkred; /* Darker red on hover */
+}

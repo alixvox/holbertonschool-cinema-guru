@@ -1,0 +1,115 @@
+/* General Styles for Input Wrapper */
+.input-wrapper {
+  margin-bottom: 15px; /* Adjust as needed */
+  position: relative;
+}
+
+/* Styles for Input Label */
+.input-wrapper label {
+  display: block;
+  margin-bottom: 5px; /* Adjust as needed */
+  color: #000; /* Adjust label color as needed */
+  font-size: 16px; /* Adjust label font size as needed */
+}
+
+/* Styles for Input Field */
+.input-wrapper input {
+  width: 100%; /* Adjust width as needed */
+  padding: 10px; /* Adjust padding as needed */
+  border: none;
+  border-bottom: 2px solid #e0e0e0; /* Light grey border by default */
+  background-color: transparent;
+  font-size: 16px; /* Adjust font size as needed */
+  color: #000; /* Adjust text color as needed */
+}
+
+/* Focus state for Input Field */
+.input-wrapper input:focus {
+  outline: none;
+  border-bottom-color: #f00; /* Change to red on focus */
+}
+
+/* Error state for Input Field - You may toggle this class dynamically if there's an error */
+.input-wrapper .input-error {
+  border-bottom-color: #f00; /* Red bottom border for error */
+}
+
+/* Styles for Input Icon if you have one */
+.input-wrapper .icon {
+  position: absolute;
+  right: 10px; /* Adjust as needed */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Styles for SelectInput */
+.select-input-wrapper {
+  position: relative;
+  background-color: #000; /* Assuming a black background */
+  padding: 10px;
+  margin-bottom: 15px; /* Space below the select */
+}
+
+.select-input-wrapper label {
+  color: #fff; /* White text for the label */
+  margin-bottom: 5px; /* Space below the label */
+}
+
+.select-input-wrapper select {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #ff0000; /* Red underline */
+  color: #fff; /* White text for the select */
+  padding: 5px 0;
+}
+
+/* Adjust the dropdown arrow styling as necessary */
+.select-input-wrapper::after {
+  content: '▼'; /* Dropdown arrow */
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Styles for Button */
+.button {
+  background-color: #ff0000; /* Red background */
+  color: #fff; /* White text */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 15px; /* Space below the button */
+}
+
+/* Hover effect for Button */
+.button:hover {
+  background-color: #e60000; /* Slightly darker red on hover */
+}
+
+/* Styles for SearchBar */
+.search-bar {
+  position: relative;
+  background-color: #000; /* Assuming a black background */
+  padding: 10px;
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #fff; /* White border */
+  color: #fff; /* White text */
+  padding: 5px 30px 5px 10px; /* Larger left padding for the icon */
+}
+
+/* Adjust the search icon styling as necessary */
+.search-bar::before {
+  content: '🔍'; /* Search icon */
+  color: #fff;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}

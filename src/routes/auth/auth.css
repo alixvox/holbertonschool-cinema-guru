@@ -1,0 +1,67 @@
+/* Base styles for the authentication container */
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff; /* Adjust if needed */
+}
+
+/* Styles for the header with Sign In and Sign Up buttons */
+.auth-header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.auth-header button {
+  padding: 10px 20px;
+  background-color: #ff0000; /* Red background */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+}
+
+.auth-header button.active {
+  background-color: #d10000; /* Darker red for active state */
+}
+
+/* Styles for the form */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Adjust width as needed */
+  max-width: 300px; /* Adjust max-width as needed */
+}
+
+.auth-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #e0e0e0; /* Light grey border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Error state for input */
+.auth-form input.error {
+  border-color: #ff0000; /* Red border for error state */
+}
+
+/* Styles for the form buttons */
+.auth-form button {
+  padding: 10px;
+  background-color: #ff0000; /* Red background */
+  color: #fff; /* White text */
+  border: none;
+  cursor: pointer;
+}
+
+/* Hover effect for form buttons */
+.auth-form button:hover {
+  background-color: #d10000; /* Darker red on hover */
+}
+
+/* Additional styles for icons */
+.icon {
+  margin-right: 5px; /* Space between icon and text */
+}

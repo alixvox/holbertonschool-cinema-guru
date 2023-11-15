@@ -1,0 +1,5 @@
+.dashboard {
+  background-color: #333; /* Assuming the dashboard has a dark background */
+  min-height: 100vh; /* Full view height */
+  /* Add more styling according to your layout requirements */
+}
